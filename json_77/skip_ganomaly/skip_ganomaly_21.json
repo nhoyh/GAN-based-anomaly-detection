@@ -1,0 +1,76 @@
+{
+  "exp": {
+    "section": "trainer",
+    "params": ["flip_labels", "soft_labels", "include_noise"],
+    "vals": [false, true]
+  },
+  "model": {
+    "name": "skip_ganomaly.SkipGANomaly"
+  },
+  "dirs": {
+    "data": "data",
+    "data_normal": "data/Normal/",
+    "data_anomalous": "data/Anomalous/"
+  },
+  "data_loader": {
+    "name": "data_generator.DataGenerator",
+    "random_seed": 652016,
+    "buffer_size": 280,
+    "image_size": 7,
+    "batch_size": 8,
+    "num_epochs": 1000,
+    "num_iter_per_epoch": 35,
+    "num_parallel_calls": 8,
+    "num_iter_per_test": 2,
+    "mode": "anomaly",
+    "dataset_name": "material",
+    "binary_location": "offload",
+    "test_batch": 104,
+    "validation": false,
+    "validation_percent": 10,
+    "user": 21
+  },
+  "trainer": {
+    "name": "skip_ganomaly_trainer.SkipGANomalyTrainer",
+    "init_type": "normal",
+    "noise_dim": 256,
+    "image_dims": [7, 7, 1],
+    "include_noise": false,
+    "soft_labels": false,
+    "flip_labels": false,
+    "weight_adv": 1,
+    "weight_cont": 40,
+    "weight_lat": 1,
+     "loss_method": "fm",
+     "noise_probability": 0.05,
+    "discriminator_l_rate": 5e-6,
+    "generator_l_rate": 5e-5,
+    "optimizer_adam_beta1": 0.5,
+    "optimizer_adam_beta2": 0.999,
+    "batch_momentum": 0.8,
+    "leakyReLU_alpha": 0.2,
+    "dis_inter_layer_dim": 1024,
+    "dropout_rate": 0.3,
+    "ema_decay": 0.999,
+    "spectral_norm": true,
+    "allow_zz": true,
+    "enable_early_stop": false,
+    "degree": 1,
+    "weight": 0.2,
+    "label": 0,
+     "frequency_eval": 1,
+    "patience": 10,
+    "test_at_end": true,
+    "percentiles": [40,42,44,46,48,50,52,54,56]
+
+  },
+  "log": {
+    "name": "summarizer.Summarizer",
+    "enable_summary": true,
+    "show_steps": 10,
+    "max_to_keep": 2,
+    "num_example_imgs_to_generate": 25,
+    "frequency_test": 5,
+    "output_folder": "result_skipganomaly"
+  }
+}
