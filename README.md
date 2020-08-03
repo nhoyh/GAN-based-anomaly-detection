@@ -7,7 +7,7 @@ Used datasets
 -----------
 HIFD: https://github.com/nhoyh/HR_IMU_falldetection_dataset
 
-MobiFall v2.0 & MobiAct v2.0:https://bmi.hmu.gr/the-mobifall-and-mobiact-datasets-2/
+MobiFall v2.0 & MobiAct v2.0: https://bmi.hmu.gr/the-mobifall-and-mobiact-datasets-2/
 
 Model Description
 -----------
