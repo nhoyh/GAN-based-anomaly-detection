@@ -5,6 +5,7 @@ nhoyh1@gmail.com, yhnho@kaist.ac.kr, TCL, KAIST, http://robot.kaist.ac.kr
 Used datasets
 -----------
 HIFD: https://github.com/nhoyh/HR_IMU_falldetection_dataset
+
 MobiFall v2.0 & MobiAct v2.0:https://bmi.hmu.gr/the-mobifall-and-mobiact-datasets-2/
 
 Model Description
