@@ -13,7 +13,7 @@ Model Description
 -----------
 - UI-GAN (Proposed Model)
 
-![uigan]<img width="300" src="https://user-images.githubusercontent.com/42211418/89154162-532b0280-d5a1-11ea-9cc8-2f4d3fee2e6b.PNG">
+<img width="750" src="https://user-images.githubusercontent.com/42211418/89154162-532b0280-d5a1-11ea-9cc8-2f4d3fee2e6b.PNG">
 
 - AnoGAN
 
