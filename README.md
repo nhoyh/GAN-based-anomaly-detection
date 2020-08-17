@@ -9,7 +9,7 @@ HIFD: https://github.com/nhoyh/HR_IMU_falldetection_dataset
 
 MobiFall v2.0 & MobiAct v2.0: https://bmi.hmu.gr/the-mobifall-and-mobiact-datasets-2/
 
-Model Description
+Model Descriptions
 -----------
 
 
@@ -18,7 +18,6 @@ Model Description
 <img width="600" src="https://user-images.githubusercontent.com/42211418/89154162-532b0280-d5a1-11ea-9cc8-2f4d3fee2e6b.PNG">
 
 ----------
-
 - AnoGAN
 
 <img width="600" src="https://user-images.githubusercontent.com/42211418/89154241-7786df00-d5a1-11ea-8e5e-b38f48ac30ff.PNG">
@@ -45,6 +44,7 @@ Model Description
 <img width="600" src="https://user-images.githubusercontent.com/42211418/90361886-424ab880-e09a-11ea-9864-f366584e26bf.PNG">
 <img width="600" src="https://user-images.githubusercontent.com/42211418/90361889-424ab880-e09a-11ea-8111-1292030c5f76.PNG">
 
+----------
 - ENCEBGAN
 
 <img width="600" src="https://user-images.githubusercontent.com/42211418/90361993-7e7e1900-e09a-11ea-9502-3d42de5584bc.PNG">
@@ -55,6 +55,7 @@ Model Description
 <img width="600" src="https://user-images.githubusercontent.com/42211418/90362009-8938ae00-e09a-11ea-9ec2-b0a89fc7cfcf.PNG">
 <img width="600" src="https://user-images.githubusercontent.com/42211418/90362010-8a69db00-e09a-11ea-9f25-def8e9901106.PNG">
 
+----------
 - GANomaly
 
 <img width="600" src="https://user-images.githubusercontent.com/42211418/90361953-61494a80-e09a-11ea-87f4-c17f4505d4ce.PNG">
