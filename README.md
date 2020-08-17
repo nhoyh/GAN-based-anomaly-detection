@@ -3,6 +3,11 @@ This model and details will be introduced in #
 
 nhoyh1@gmail.com, yhnho@kaist.ac.kr, TCL, KAIST, http://robot.kaist.ac.kr
 
+
+Proposed Model (UI-GAN)
+-----------
+
+
 Used datasets
 -----------
 HIFD: https://github.com/nhoyh/HR_IMU_falldetection_dataset
