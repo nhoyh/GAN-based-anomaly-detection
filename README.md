@@ -18,12 +18,11 @@ Model Description
 - AnoGAN
 
 <img width="700" src="https://user-images.githubusercontent.com/42211418/89154241-7786df00-d5a1-11ea-8e5e-b38f48ac30ff.PNG">
-![anogan](https://user-images.githubusercontent.com/42211418/89154241-7786df00-d5a1-11ea-8e5e-b38f48ac30ff.PNG)
 
 - fAnoGAN
 
-![fano1](https://user-images.githubusercontent.com/42211418/90361544-7376b900-e099-11ea-8375-038626d780ba.PNG)
-![fano2](https://user-images.githubusercontent.com/42211418/90361546-74a7e600-e099-11ea-954e-764089d316fc.PNG)
+<img width="700" src="https://user-images.githubusercontent.com/42211418/90361544-7376b900-e099-11ea-8375-038626d780ba.PNG">
+<img width="700" src="https://user-images.githubusercontent.com/42211418/90361546-74a7e600-e099-11ea-954e-764089d316fc.PNG">
 
 - EBGAN
 
