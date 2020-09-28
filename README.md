@@ -1,6 +1,8 @@
 # UI-GAN: GAN-based anomaly detection using user initial information
 This model and details will be introduced in #
 
+If you need overall codes in this project, please request me on e-mail:
+
 nhoyh1@gmail.com, yhnho@kaist.ac.kr, TCL, KAIST, http://robot.kaist.ac.kr
 
 
