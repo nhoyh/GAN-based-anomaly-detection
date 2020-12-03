@@ -17,7 +17,7 @@ class ALAD(BaseModel):
     def build_model(self):
 
         # Placeholdersn
-        if self.config.trainer.init_type == "normal":
+        if self.config.trainer.init_type == "normal": ## test
             self.init_kernel = tf.random_normal_initializer(mean=0.0, stddev=0.02)
         elif self.config.trainer.init_type == "xavier":
             self.init_kernel = tf.contrib.layers.xavier_initializer(
