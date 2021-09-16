@@ -1,5 +1,5 @@
 # UI-GAN: GAN-based anomaly detection using user initial information
-This model and details will be introduced in #
+This model is introduced in https://ieeexplore.ieee.org/abstract/document/9335651
 
 If you need overall codes in this project, please request me on e-mail:
 
