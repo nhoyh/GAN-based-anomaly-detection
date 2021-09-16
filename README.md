@@ -8,7 +8,8 @@ nhoyh1@gmail.com, yhnho@kaist.ac.kr, TCL, KAIST, http://robot.kaist.ac.kr
 
 Proposed Model (UI-GAN)
 -----------
-<img width="800" src="https://user-images.githubusercontent.com/42211418/133659480-6c94a944-8fba-42ad-a4ec-41c2ed888fa1.jpg">
+<img width="700" src="https://user-images.githubusercontent.com/42211418/133659480-6c94a944-8fba-42ad-a4ec-41c2ed888fa1.jpg">
+
 Schematic of UI-GAN. The initial heart rate information was achieved from the extracted feature in non-fall data. The initial information was listed by the calculated relevance ranking. Feature maps, which became downsized for each convolution step, were surrounded in order of the highest-ranking feature. Color triangles representing the used features and corresponding feature maps were illustrated in the same color. All the surrounding feature maps were concatenated to the corresponding decoded feature maps. This model learned the distribution of the non-fall data through iterative adversarial training, and it detected falls from the difference between the input and the reconstruction data.
 
 Used datasets
