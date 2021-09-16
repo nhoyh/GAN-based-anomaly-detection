@@ -8,7 +8,7 @@ nhoyh1@gmail.com, yhnho@kaist.ac.kr, TCL, KAIST, http://robot.kaist.ac.kr
 
 Proposed Model (UI-GAN)
 -----------
-This model and details will be introduced.
+<img width="800" src="https://user-images.githubusercontent.com/42211418/133659480-6c94a944-8fba-42ad-a4ec-41c2ed888fa1.jpg">
 
 Used datasets
 -----------
